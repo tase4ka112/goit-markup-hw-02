@@ -13,6 +13,7 @@ ul {
 }
 
 .visually-hidden {
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -27,17 +28,17 @@ ul {
 /** --------------header------------- */
 
 .header-logo {
-    color: #2E2F42;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.header-logo span {
-    color: #4D5AE5;
+.header-logo-color {
+    color: #2E2F42;
 }
 
 .header-menu-link {
@@ -53,10 +54,13 @@ ul {
     color: #404BBF;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-address-link {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -81,7 +85,7 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12em;
+    letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -92,6 +96,14 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: #4D5AE5;
+
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF
 }
 
 /** ------------------------------- */
@@ -126,7 +138,9 @@ ul {
 
 /** --------------team------------- */
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-titel {
     color: #2E2F42;
@@ -138,7 +152,9 @@ ul {
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
@@ -207,17 +223,17 @@ ul {
 
 
 .footer-logo {
-    color: #F4F4FD;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .footer-logo-color {
-    color: #4D5AE5;
+    color: #f4f4fd;
 }
 
 .footer-text {
