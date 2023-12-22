@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -117,7 +119,7 @@ ul {
 .features-item-text {
     color: #434455;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.50;
     letter-spacing: 0.02em;
 }
 
@@ -215,7 +217,7 @@ ul {
     text-transform: uppercase;
 }
 
-.footer-logo span {
+.footer-logo-color {
     color: #4D5AE5;
 }
 
