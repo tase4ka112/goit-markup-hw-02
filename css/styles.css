@@ -13,7 +13,6 @@ ul {
 }
 
 .visually-hidden {
-    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -38,7 +37,7 @@ ul {
 }
 
 .header-logo-color {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .header-menu-link {
@@ -152,11 +151,11 @@ ul {
     text-transform: capitalize;
 }
 
-.team-list {
+.team-list {}
+
+.team-item {
     background-color: #FFFFFF;
 }
-
-.team-item {}
 
 .team-img {}
 
